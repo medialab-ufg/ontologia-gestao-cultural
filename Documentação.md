@@ -80,6 +80,18 @@ São meios, mecanismos ou ferramentas de gestão cultural que orientam a relaç�
 
 São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais
 
+### Atributos e Relacionamentos
+
+## Resultados Alcançados
+
+### Versão Beta da Ontologia
+
+### Desenvolvimento de Metolologia para Construção Colaborativa de Ontologias
+
+### Desenvolvimento de Ferramenta Colaborativa para Construção de Ontologias
+
+
+
 
 
 
