@@ -83,8 +83,86 @@ As super classes definidas pelo GT Glossário da Cultura foram:
 
 São identificadas como subclasses de Agente:
 
-- Agente Coletivo: agente que representa um grupo, instituição ou similar, que atue como um ente coletivo.
-- Agente individual: agente que representa apenas um indivíduo, grupo, instituição ou similar, que atua como um ente único.
+> Agente Coletivo: agente que representa um grupo, instituição ou similar, que atue como um ente coletivo.
+
+> Agente individual: agente que representa apenas um indivíduo, grupo, instituição ou similar, que atua como um ente único.
+
+A estrutura final de subclasses da classe Agente proposta pelo GT foi a seguinte:
+
+- **Agente**
+  - **Agente Coletivo**
+    - Grupo de Cultura
+    - Instituição
+      - Administração Pública
+        - Órgão Gestor de Cultura
+      - Entidade Empresarial
+        - Cooperativa
+        - Empresa Privada
+      - Terceiro Setor
+        - Associação
+    - Órgão Colegiado
+      - Comissão Intergestores
+      - Conselho de Política Cultural
+    - Povo e Comunidade Tradicional
+      - Comunidade Tradicional
+      - Povo Indígena
+  - **Agente Individual**
+
+Os relacionamentos propostos, em grande parte extraídos da tipologia atual do SNIIC e, também em sua maioria, são diferentes apenas entre as subclasses "Agente Coletivo" e "Agente Individual", que possuem características específicas.
+
+O resultado da modelagem de relacionamentos baseados na classe Agente foi o seguinte:
+
+- **Agente**
+  - Relacionamentos Comuns
+    - criaEspaço - Espaço
+    - elaboraInstrumento - Instrumento
+    - financiaAção - Múltiplo
+    - financiaEspaço - Espaço
+    - fiscalizaAção - Ação
+    - gereEspaço - Espaço
+    - mantémEspaço - Espaço
+    - planejaAção - Ação
+    - produzInstrumento - Instrumento
+    - realizaAção - Ação
+    - regulamentaInstrumento - Instrumento
+    - trabalhaEmEspaço - Espaço
+    - utilizaInstrumento - Instrumento
+    - utilizaEspaço - Espaço
+  - Relacionamentos de Agente Coletivo
+    - compostoPor - Agente
+    
+O resultado da criação de atributos para a classe Agente e suas subclasses (e os seus respectivos tipos) é apresentado a seguir:
+
+ **Agente**
+  - Atributos Comuns
+    - Nome - Texto
+    - Área de atuação - Taxonomia
+    - Descrição curta - Texto
+    - Website - Texto
+    - Email - Texto
+    - Telefone - Texto
+    - Localização geográfica - Texto
+    - CEP	- Texto
+    - Logradouro - Texto
+    - Número - Texto
+    - Complemento	- Texto
+    - Bairro - Texto
+    - Município	- Texto
+    - UF - Taxonomia
+    - Descrição - Texto
+  - Atributos de Agente Individual
+    - CPF	- Texto
+    - Data de nascimento	- Data
+    - Gênero	- Taxonomia
+    - Orientação sexual	- Taxonomia
+    - Raça/cor	- Taxonomia
+    - Ocupação	- Taxonomia
+  - Atributos de Agente Coletivo
+    - CNPJ	- Texto
+    - Tipologia	- Taxonomia
+    - Esfera	- Taxonomia
+    - Tipo de esfera	- Taxonomia
+    - Títulos e certificados	- Taxonomia
 
 ### Espaço
 
@@ -92,8 +170,8 @@ Lugares, fixos ou móveis/itinerantes, virtuais ou físicos, onde ocorrem açõe
 
 São identificadas como subclasses de Espaços:
 
-- Espaço Cultural:
-- Espaço Potencialmente Cultural:
+> Espaço Cultural:
+> Espaço Potencialmente Cultural:
 
 ### Ação
 
@@ -107,9 +185,8 @@ São meios, mecanismos ou ferramentas de gestão cultural que orientam a relaç�
 
 São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais
 
-### Atributos e Relacionamentos
 
-## Resultados Alcançados
+## Discussões sobre os Resultados
 
 ### Versão Beta da Ontologia
 
