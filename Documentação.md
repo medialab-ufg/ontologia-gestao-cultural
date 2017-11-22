@@ -313,14 +313,32 @@ A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seg
   - Potencial
   - Presencial
   - Virtual
+  
+O resultado da modelagem de relacionamentos baseados na classe Público  foi o seguinte:
 
+- **Público**
+  - Relacionamentos
+    - frequentaEspaço - Espaço
+    - interageCom - Agente
+    - paga - Ação
+    - participaDeAção - Ação
+    - utilizaEspaço - Espaço
+    - utilizaInstrumento - Instrumento
+    
+O resultado da criação de atributos para a classe Público (e os seus respectivos tipos) é apresentado a seguir:
+
+- **Público**
+  - Atributos
+    - FaixaEtária	- Lista
+    - Tipo de engajamento - Texto	
+    - Segmento de público	- Texto
+
+<!-- 
 ## Discussões sobre os Resultados
-
 ### Versão Beta da Ontologia
-
 ### Desenvolvimento de Metolologia para Construção Colaborativa de Ontologias
-
 ### Desenvolvimento de Ferramenta Colaborativa para Construção de Ontologias
+-->
 
 
 
