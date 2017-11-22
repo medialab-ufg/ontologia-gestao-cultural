@@ -59,15 +59,15 @@ A metodologia do grupo de trabalho teve como premissas as seguintes etapas:
 
 ### Projeção e Condução de Entrevistas em Grupos Focais
 
-Realização de mediação de grupos focais, com o objetivo de extrair e organizar as informações dos especialistas de domínio, no sentido de deixar todos os participantes do grupo de trabalho confortáveis e expor suas ideias. Usamos como base, Krueger (2002) que explica mais sobre como tornar esse processo mais simples e objetivo, independente de qual seja o tema trabalhado. Nesse tipo de método de controle de conteúdo gerado por grupos focais, é apresentada boas práticas para que seja possível fazer as intervenções sem gerar conflitos ou prejudicar o processo de criação da inteligência coletiva. Dentre essas práticas heurísticas, são:
+A realização de mediação de grupos focais teve como objetivo extrair e organizar as informações dos especialistas de domínio, de maneira a permitir a modelagem e o desenvolvimento da ontologia de maneira totalmente colaborativa. Nesse tipo de método de controle de conteúdo gerado por grupos focais, são apresentada boas práticas para que seja possível fazer intervenções sem gerar conflitos ou prejudicar o processo de criação da inteligência coletiva. Dentre essas práticas heurísticas foram adotadas:
 
 - Controlar o número de participantes;
 - Gerar estratégias de envolvimentos dos componentes;
-- Definir Moderadores de Grupo;
-- Fazer a Análise do Conteúdo e gerar Relatórios;
-- Fazer Registros dos pontos principais do Grupo.
+- Definir moderadores de grupo;
+- Fazer a análise do conteúdo e gerar relatórios;
+- Fazer registros dos pontos principais do grupo.
 
-Esse tipo de metodologia é direcionado, em especial, para questões comportamentais e engenharia social de como agir para ter o maior aproveitamento das reuniões em grupo, tanto na questão do espaço físico, sobre como conduzir a reunião em si, quanto na parte de gestão das informações no momento das discussões.
+Esse tipo de metodologia é direcionado, em especial, para questões comportamentais e engenharia social, objetivando o maior aproveitamento das reuniões em grupo, tanto na questão do espaço físico, sobre como conduzir a reunião em si, quanto na parte de gestão das informações no momento das discussões.
 
 <!-- ## Ferramenta para Edição Colaborativa de Ontologias: Tainacan Ontology -->
 
@@ -81,9 +81,19 @@ As super classes definidas pelo GT Glossário da Cultura foram:
 
 É o indivíduo, grupo ou instituição, que atua no planejamento, execução, gestão, avaliação, criação, produção, difusão, pesquisa, e ensino no campo da cultura.
 
+São identificadas como subclasses de Agente:
+
+- Agente Coletivo: agente que representa um grupo, instituição ou similar, que atue como um ente coletivo.
+- Agente individual: agente que representa apenas um indivíduo, grupo, instituição ou similar, que atua como um ente único.
+
 ### Espaço
 
 Lugares, fixos ou móveis/itinerantes, virtuais ou físicos, onde ocorrem ações culturais.
+
+São identificadas como subclasses de Espaços:
+
+- Espaço Cultural:
+- Espaço Potencialmente Cultural:
 
 ### Ação
 
