@@ -133,7 +133,7 @@ O resultado da modelagem de relacionamentos baseados na classe Agente foi o segu
     
 O resultado da criação de atributos para a classe Agente e suas subclasses (e os seus respectivos tipos) é apresentado a seguir:
 
- **Agente**
+- **Agente**
   - Atributos Comuns
     - Nome - Texto
     - Área de atuação - Taxonomia
