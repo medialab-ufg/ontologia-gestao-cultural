@@ -170,13 +170,64 @@ O resultado da criação de atributos para a classe Agente (e os seus respectivo
 
 Lugares, fixos ou móveis/itinerantes, virtuais ou físicos, onde ocorrem ações culturais.
 
-<!--
 São identificadas como subclasses de Espaços:
+
 > Equipamento Cultural: constituem o estoque fixo ligado à cultura existente no momento de pesquisa no município, aberto ao público, podendo ou não ser mantido pelo poder público de qualquer esfera, seja ele federal, estadual ou municipal.
+
 > Espaço Potencialmente Cultural: locais aptos a receberem ações culturais, porém não caracterizados como equipamentos culturais.
--->
 
+A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
 
+- **Espaço**
+  - Equipamento Cultural
+    - Arquivo
+    - Biblioteca
+    - Centro Cultural
+    - Circo 
+    - Espaço Reliogioso
+    - Museu
+    - Teatro
+  - Espaço Potencialmente Cultural
+  
+O resultado da modelagem de relacionamentos baseados na classe Espaço foi o seguinte:
+
+- **Espaço**
+  - Relacionamentos
+    - atraiPúblico - Público
+    - recebePúblico - Público
+  
+O resultado da criação de atributos para a classe Espaço (e os seus respectivos tipos) é apresentado a seguir:
+  
+- **Espaço**
+  - Atributos
+    - Nome - texto
+    - Área de atuação -	Taxonomia
+    - Descrição curta -	Texto
+    - Acessibilidade - Lógico
+    - Acessibilidade Física - Taxonomia
+    - Horário de funcionamento - Texto
+    - Website	- Texto
+    - Email	- Texto
+    - Telefone - Texto
+    - Localização geográfica - Texto
+    - CEP	- Texto
+    - Logradouro - Texto
+    - Número - Texto
+    - Complemento - Texto
+    - Bairro - Texto
+    - Município - Texto
+    - UF - Texto
+    - Descrição - Texto
+    - Critério de uso do espaço - Texto
+    - Tipo - Taxonomia
+    - Gestor(a)(s) - Texto
+    - Esfera - Taxonomia
+    - Tipo de esfera - Taxonomia
+    - EstaCedidoPara - Agente
+    - éVirtual - Lógico
+    - SituaçãoDeFuncionamento -	Taxonomia
+    - AcessoAoPúblico	- Taxonomia
+    - Tipo - Taxonomia
 
 ### Ação
 
