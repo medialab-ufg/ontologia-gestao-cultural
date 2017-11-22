@@ -83,7 +83,7 @@ Esse tipo de metodologia é direcionado, em especial, para questões comportamen
 
 > É o indivíduo, grupo ou instituição, que atua no planejamento, execução, gestão, avaliação, criação, produção, difusão, pesquisa, e ensino no campo da cultura.
 
-São identificadas como subclasses de Agente:
+São identificadas como subclasses de Agente (e suas definições):
 
 > Agente Coletivo: agente que representa um grupo, instituição ou similar, que atue como um ente coletivo.
 
@@ -184,6 +184,20 @@ São identificadas como subclasses de Espaços:
 
 > Conjunto de atividades e procedimentos, envolvendo recursos humanos e materiais, que visam pôr em prática os objetivos de um agente ou de uma determinada política cultural.
 
+São identificadas como subclasses de Ação (e suas definições):
+
+> Criação: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
+
+> Difusão: ações que criam oportunidades de disseminação da cultura, fruição e troca de experiências, por meio da ampliação de circuitos de distribuição e da descentralização da oferta cultural, propiciando a circulação de diversas expressões culturais e linguagens, contribuindo para a formação ampla do cidadão.
+
+> Formação: ações educativas, formais ou não formais, que buscam ampliar o repertório cultural dos participantes e/ou facilitar o estabelecimento de relacionamentos inspiradores com a arte e a cultura nas dimensões de apropriação, fruição, expressão, experimentação ou especialização.
+
+> Governança: ações que contribuem para a melhoria da qualidade de uma organização, para o melhor desempenho de suas atividades e fortalecimento institucional. Abrange atividades de apoio técnico a municípios e instituições culturais, a articulação e a construção de parcerias para realização de ações conjuntas, a captação de recursos, o incremento da comunicação institucional, a melhoria da infraestrutura, a qualificação técnica de funcionários, a realização de pesquisas de perfil e satisfação do público e demais rotinas. Em geral, esse tipo de função não está associada diretamente a um público externo.
+
+> Preservação: ações voltadas para a valorização do patrimônio cultural, em todas as suas vertentes, por meio de reconhecimento, pesquisa, conservação, proteção, restauração e/ou manutenção de bens materiais e imateriais considerados significativos por determinado grupo social.
+
+> Produção: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
+
 A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
 
 - **Ação**
@@ -228,11 +242,30 @@ O resultado da criação de atributos para a classe Ação (e os seus respectivo
 
 > São meios, mecanismos ou ferramentas de gestão cultural que orientam a relação dos agentes, espaços, públicos e ou ações.
 
+São identificadas como subclasses de Instrumento:
+
+> Ato Jurídico: é uma manifestação da vontade humana que produz efeitos jurídicos, causando a aquisição, modificação ou extinção de relações jurídicas e de seus direitos. Assim, são fatos jurídicos que consistem em manifestações da vontade humana.
+  
+> Documento Referencial: documento que fornece detalhes pertinentes para a consulta sobre um assunto no campo da cultura. Os documentos de referência podem ser publicações (impressas ou eletrônicas), bases de dados (internas, externas) e páginas da Web, entre outros.
+
+> Norma Jurídica: é uma regra de conduta imposta, admitida ou reconhecida pelo ordenamento jurídico. Norma e lei são usadas comumente como expressões equivalentes, mas norma abrange na verdade também o costume e os princípios gerais do direito. Como exemplos, existem os tratados internacionais, normas constitucionais, legais e infralegais.
+
+> Sistema Operativo: podem ser vistos de dois pontos de vista, sendo gerenciadores de recursos e/ou máquinas estendidas.
+
 ### Público
 
 > **Definição**:
 
-> São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais
+> São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais.
+
+A estrutura final de subclasses de Público proposta pelo GT, com suas respectivas definições, foi:
+
+> Potencial: 
+
+> Presencial: 
+
+> Virtual:
+
 
 
 ## Discussões sobre os Resultados
