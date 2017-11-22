@@ -176,7 +176,7 @@ São identificadas como subclasses de Espaços:
 
 > Espaço Potencialmente Cultural: locais aptos a receberem ações culturais, porém não caracterizados como equipamentos culturais.
 
-A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
+A estrutura final de subclasses da classe Espaço proposta pelo GT foi a seguinte:
 
 - **Espaço**
   - Equipamento Cultural
@@ -314,7 +314,7 @@ A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seg
   - Sistema Operativo
 
 
-O resultado da modelagem de relacionamentos baseados na classe Instumento  foi o seguinte:
+O resultado da modelagem de relacionamentos baseados na classe Instrumento  foi o seguinte:
 
 - **Instrumento**
   - Relacionamentos
@@ -358,7 +358,7 @@ A estrutura final de subclasses de Público proposta pelo GT, com suas respectiv
 
 > Virtual: público que acessa, participa, cria e vivencia as ações culturais virtuais e os espaços virtuais na internet.
 
-A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seguinte:
+A estrutura final de subclasses da classe Público proposta pelo GT foi a seguinte:
 
 - **Público**
   - Potencial
