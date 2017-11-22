@@ -1,22 +1,30 @@
 # Ontologia da Gestão Cultural
 
+A importância da organização de dados na era da informação têm sido amplamente discutida em diferentes áreas de pesquisa. De acordo com as pesquisas nessa área, existem muitas formas de realizar esse tipo de trabalho, seja por uso de glossários, vocabulários, dicionários ou até mesmo de taxonomias que permitem que os dados sejam organizados de forma estruturada, facilitando os processos de busca e recuperação de informações. 
+
+Entretanto, devido ao volume e diversidade de dados que circula hoje pela Internet, uma classificação de termos de forma sintática tem se mostrado insuficiente para manter o significado dos dados de forma individualizada e confiável. Nesse sentido, pesquisas e tecnologias para web semântica vem sendo desenvolvidas e as ontologias ganham notoriedade devido ao seu grande potencial em organizar e representar os dados com maior confiabilidade, permitir categorização e classificação com menor propensão a erros, e permitir que a informação codificada seja interpretada por seres humanos e máquinas.
+
+O presente relatório apresenta o projeto e criação de uma ontologia para a Gestão Cultural, trabalho de interesse do Ministério da Cultura (MinC), em parceria com o Laboratório de Políticas Públicas Participativas (L3P) da Universidade Federal de Goiás (UFG). São descritos aqui: a metodologia de construção colaborativa de ontologias, a versão beta da ontologia, e as principais contribuições da pesquisa e estudos realizados.
 
 ## GT Glossário da Cultura
 
+Em geral, quando se trabalha com a criação de ontologias, devido ao grau de complexidade dessas estruturas de dados, o método padrão se baseia na parceria entre os especialistas de domínio e os técnicos ou engenheiros de ontologia, que são responsáveis por modelar o conhecimento de dominio repassado pelos especialistas e desenvolver a ontologia através de linguagem computacional apropriada. Entretanto, para a realidade do projeto, visando aproximar ainda mais o especialista de domínio do processo de modelagem de conhecimento da Gestão Cultural, foi adotada uma forma de trabalho colaborativa entre a parte especialista e a parte técnica, objetivando trazer os especialistas de domínio para o processo de desenvolvimento participativo, tanto para coletar uma grande massa de dados, quanto para validar todas as informações de domínio
 
+Nesse contexto, foi riado o GT Glossário da Cultura, grupo de trabalho que contou com mais de 50 especialistas de domínio, fixos e também colaboradores sazonais, que, através de reuniões de trabalho presenciais e online, juntamente com o grupo de pesquisa L3P, realizaram o trabalho de modelagem e desenvolvimento da Ontologia da Gestão Cultural. Para chegar a este resultado foram analisadas metodologias de trabalho específicas para a criação colaborativa de ontologias, a partir da qual foi também criada uma metodologia própria, além do desenvolvimento de uma ferramenta web para edição colaborativa de ontologias, fomentando ainda mais a integração de todos os participantes nesse processo.
 
 ## Metodologia para Desenvolvimento Colaborativo de Ontologias
 
-Sobre os métodos de criação de ontologias, o trabalho no projeto foi baseado nas revisão de metodologias de gestão de ontologias para dar uma consistência na escolha de como iniciar os trabalhos de desenvolvimento de um novo modelo colaborativo de criação de ontologias.
-Para entendermos melhor essa área de criação de ontologias, deve ser verificada a  definição de gestão de ontologias, que conforme explica Siqueira et al (2008), entende-se como um conjunto de processos que têm como objetivo planejar, organizar, liderar, coordenar e controlar todo o ciclo de vida de uma ontologia, garantindo sua aplicação e utilização, assim como definindo métodos para conduzir as pessoas responsáveis por sua manipulação através da realização de suas atividades.
+A metodologia para criação da Ontologia da GEstão Cultural foi baseada na revisão sistemática de metodologias de criação de ontologias, visando ytazer consistência nos trabalhos de desenvolvimento e a criação, que se mostrou necessária, de um novo modelo colaborativo de criação de ontologias. 
 
-Nesse contexto, existem alguns modelos de gestão de ontologias que foram estudados para que houvesse possibilidade de criar ou reaproveitamento no projeto de ontologia para a gestão cultural. Segundo Siqueira et al (2008), são eles:
+> Segundo Siqueira et al (2008), entende-se **metodologia para criação de ontologias** como um conjunto de processos que têm como objetivo planejar, organizar, liderar, coordenar e controlar todo o ciclo de vida de uma ontologia, garantindo sua aplicação e utilização, assim como definindo métodos para conduzir as pessoas responsáveis por sua manipulação através da realização de suas atividades.
+
+Nesse contexto, os seguintes modelos de gestão de ontologias que estudados para possibilitar a criação da metodologia colaborativa adotada para a Ontologia da gestão cultural:
 
 - Metodologia Uschold e King: construção de ontologia para processos de modelagem de empresas.
 
 - Metodologia Grüninger & Fox: desenvolvimento de uma ontologia dentro do domínio de processos de negócios e modelagem de atividades.
 
-- Metodologia 101: guia simples baseado num processo iterativo que ajuda os desenvolvedores, mesmo que não sejam especialistas em Engenharia de Ontologias, a criarem uma ontologia usando ferramentas, como por exemplo o Protégé.
+- Metodologia 101: guia simples baseado em processos iterativos que ajudam os desenvolvedores, mesmo que não sejam especialistas em Engenharia de Ontologias, a criarem uma ontologia usando ferramentas, como por exemplo o Protégé.
 
 - Método KACTUS: este método para desenvolver ontologias está condicionado ao desenvolvimento de aplicações e tem como base uma aplicação da base de conhecimento, por meio de um processo de abstração (isto é, seguindo uma estratégia bottom-up).
 
@@ -34,11 +42,20 @@ Nesse contexto, existem alguns modelos de gestão de ontologias que foram estuda
 
 - Metodologia Cyc: codifica o conhecimento das fontes e, quando já existe conhecimento suficiente na ontologia, um novo consenso é obtido por ferramentas de linguagem natural.
 
-Após a análise detalhada de todas as metodologias citadas, foram avaliados os critérios que atenderiam a demanda do projeto da ontologia da Gestão Cultural, sendo o indicador que teve maior peso para escolha da metodologia, foi a organização dos processos de construção de ontologias, validado por especialistas na área. A partir dessa premissa, foi adotada da metodologia 101, que é um dos estudos pioneiros na área de construção de ontologias e um dos mais referenciados em publicações científicas dessa área, o que reforça sua aplicação e validação na literatura.
+Após a análise detalhada de todas as metodologias citadas, foram avaliados levantados os critérios que atenderiam a demanda do projeto da Ontologia da Gestão Cultural, sendo o indicador com maior peso para escolha da metodologia a **organização dos processos de construção de ontologias**, validado por especialistas na área. A partir dessa premissa foi adotada como base principal o processo de construção descrito pela Metodologia 101, que é um dos estudos pioneiros na área de construção de ontologias e um dos mais referenciados em publicações científicas dessa área, o que reforça sua aplicação e validação na literatura.
 
-Siqueira et al (2008) faz um comparativo dessas metodologias com uma tabela apresenta quatro características avaliadas em cada metodologia: a forma de criação da ontologia (se esta pode ser criada manualmente de um rascunho, ou seja, sem ser obrigatório utilizar outras ontologias como base, ou a partir da integração com outras ontologias, ou ambas), a dependência de aplicação, a existência de uma fase de validação da ontologia criada e a identificação de uma fase que considere a evolução da ontologia.
+Noy e McGuinness (2001), autores da Metodologia 101, descrevem práticas heurísticas sobre a área de criação de ontologias. A partir dessas práticas, utilizadas também para definição da estrutura de trabalho para o GT Glossário da cultura, foram definidos os pontos principais da metodologia de trabalho, que serão apresentados a seguir.
 
 ## Desenvolvimento colaborativo da Ontologia de Gestão Cultural
+
+A metodologia do grupo de trabalho teve como premissas as seguintes etapas:
+
+- Diagnóstico de ontologias (pre)existentes sobre o tema Gestão Cultural
+- Avaliação de referências para desenvolvimento da ontologia
+- Criação das Classes da ontologia
+- Criação dos Atributos e Relacionamentos da ontologia
+- Validação da ontologia
+
 
 ### Projeção e Condução de Entrevistas em Grupos Focais
 
@@ -52,7 +69,7 @@ Realização de mediação de grupos focais, com o objetivo de extrair e organiz
 
 Esse tipo de metodologia é direcionado, em especial, para questões comportamentais e engenharia social de como agir para ter o maior aproveitamento das reuniões em grupo, tanto na questão do espaço físico, sobre como conduzir a reunião em si, quanto na parte de gestão das informações no momento das discussões.
 
-## Ferramenta para Edição Colaborativa de Ontologias: Tainacan Ontology
+<!-- ## Ferramenta para Edição Colaborativa de Ontologias: Tainacan Ontology -->
 
 
 ## Documentação da Ontologia
