@@ -75,11 +75,13 @@ Esse tipo de metodologia é direcionado, em especial, para questões comportamen
 ## Documentação da Ontologia
 
 
-As super classes definidas pelo GT Glossário da Cultura foram:
+<!-- As super classes definidas pelo GT Glossário da Cultura foram: -->
 
 ### Agente
 
-É o indivíduo, grupo ou instituição, que atua no planejamento, execução, gestão, avaliação, criação, produção, difusão, pesquisa, e ensino no campo da cultura.
+> **Definição**:
+
+> É o indivíduo, grupo ou instituição, que atua no planejamento, execução, gestão, avaliação, criação, produção, difusão, pesquisa, e ensino no campo da cultura.
 
 São identificadas como subclasses de Agente:
 
@@ -131,7 +133,7 @@ O resultado da modelagem de relacionamentos baseados na classe Agente foi o segu
   - Relacionamentos de Agente Coletivo
     - compostoPor - Agente
     
-O resultado da criação de atributos para a classe Agente e suas subclasses (e os seus respectivos tipos) é apresentado a seguir:
+O resultado da criação de atributos para a classe Agente (e os seus respectivos tipos) é apresentado a seguir:
 
 - **Agente**
   - Atributos Comuns
@@ -168,22 +170,69 @@ O resultado da criação de atributos para a classe Agente e suas subclasses (e 
 
 Lugares, fixos ou móveis/itinerantes, virtuais ou físicos, onde ocorrem ações culturais.
 
+<!--
 São identificadas como subclasses de Espaços:
+> Equipamento Cultural: constituem o estoque fixo ligado à cultura existente no momento de pesquisa no município, aberto ao público, podendo ou não ser mantido pelo poder público de qualquer esfera, seja ele federal, estadual ou municipal.
+> Espaço Potencialmente Cultural: locais aptos a receberem ações culturais, porém não caracterizados como equipamentos culturais.
+-->
 
-> Espaço Cultural:
-> Espaço Potencialmente Cultural:
+
 
 ### Ação
 
-Conjunto de atividades e procedimentos, envolvendo recursos humanos e materiais, que visam pôr em prática os objetivos de um agente ou de uma determinada política cultural.
+> **Definição**:
+
+> Conjunto de atividades e procedimentos, envolvendo recursos humanos e materiais, que visam pôr em prática os objetivos de um agente ou de uma determinada política cultural.
+
+A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
+
+- **Ação**
+  - **Criação**
+  - **Difusão**
+  - **Formação**
+  - **Governança**
+  - **Preservação**
+  - **Produção**
+  
+ O resultado da modelagem de relacionamentos baseados na classe Ação foi o seguinte: 
+ 
+- **Ação**
+  - Relacionamentos
+    - aconteceEm - Espaço
+    - atingePúblico - Público
+    - éExecutadaPor - Agente
+    - éOrientadaPor - Instrumento
+    - temPublico - Público
+    
+O resultado da criação de atributos para a classe Ação (e os seus respectivos tipos) é apresentado a seguir:    
+
+- **Ação**
+  - Atributos
+    - Tradução para Libras - Lógico
+    - Áudio descrição - Lógico
+    - Classificação etária - Taxonomia
+    - Preço - Texto
+    - Nome - Texto
+    - Descrição Curta - Texto
+    - RecebeuRecursos	- Valor Inteiro
+    - RecebeuVerbaPública -	Lógico
+    - ImpactaTerritórios -	Lista
+    - TeveMeiaEntrada -	Lógico
+    - QualidadeMeiaEntrada -	Lista
+    - QuantidadeMeiaEntradaPorTipo -	Valor Inteiro
+    - TemConteúdoAcessível -	Lógico
 
 ### Instrumento
 
-São meios, mecanismos ou ferramentas de gestão cultural que orientam a relação dos agentes, espaços, públicos e ou ações.
+> **Definição**:
+
+> São meios, mecanismos ou ferramentas de gestão cultural que orientam a relação dos agentes, espaços, públicos e ou ações.
 
 ### Público
 
-São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais
+> **Definição**:
+
+> São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais
 
 
 ## Discussões sobre os Resultados
