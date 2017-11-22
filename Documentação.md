@@ -252,6 +252,47 @@ São identificadas como subclasses de Instrumento:
 
 > Sistema Operativo: podem ser vistos de dois pontos de vista, sendo gerenciadores de recursos e/ou máquinas estendidas.
 
+A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seguinte:
+
+- **Instrumento**
+   - Ato Jurídico
+    - Ato Administrativo
+    - Contrato
+  - Documento Referencial
+  - Norma Jurídica
+  - Sistema Operativo
+
+
+O resultado da modelagem de relacionamentos baseados na classe Instumento  foi o seguinte:
+
+- **Instrumento**
+  - Relacionamentos
+    - medeiaAção - Ação
+    - normatizaAção - Ação
+    - orientaAgente - Agente
+    - publicisaAção - Ação
+    - regulaEspaço - Espaço
+    - regulamentaAção - Ação
+    - regulamentaEspaço - Espaço
+    - viabilizaAção - Ação
+    
+O resultado da criação de atributos para a classe Instrumento (e os seus respectivos tipos) é apresentado a seguir:
+
+- **Instrumento**
+  - Atributos Comuns
+    - Título - texto
+    - Descrição -	texto
+    - Vigência -	boolean
+    - Data de vigência - date
+    - Data de publicação	- date
+    - Esfera	- texto
+    - Tipo - texto
+  - Atributos de Contrato
+    - Partes envolvidas - texto
+  - Atributos de Sistema Operativo
+    - Função - texto
+  
+
 ### Público
 
 > **Definição**:
@@ -260,13 +301,18 @@ São identificadas como subclasses de Instrumento:
 
 A estrutura final de subclasses de Público proposta pelo GT, com suas respectivas definições, foi:
 
-> Potencial: 
+> Potencial: são “indivíduos” (agentes) que ainda não participam/participaram de ação cultural e que podem vir a se tornar público presencial ou virtual.
 
-> Presencial: 
+> Presencial: público presencial das ações culturais e/ou dos espaços físicos.
 
-> Virtual:
+> Virtual: público que acessa, participa, cria e vivencia as ações culturais virtuais e os espaços virtuais na internet.
 
+A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seguinte:
 
+- **Público**
+  - Potencial
+  - Presencial
+  - Virtual
 
 ## Discussões sobre os Resultados
 
