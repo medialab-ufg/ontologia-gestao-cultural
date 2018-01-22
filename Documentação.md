@@ -1,5 +1,15 @@
 # Ontologia da Gestão Cultural
 
+## Introdução
+## Participantes e processo de construção
+## Núcleo do modelo (diagrama)
+## Referências Externas do Modelo
+## Modelo Completo (diagrama)
+## Modelo Conceitual
+## Referências
+
+
+
 A importância da organização de dados na era da informação têm sido amplamente discutida em diferentes áreas de pesquisa. De acordo com as pesquisas nessa área, existem muitas formas de realizar esse tipo de trabalho, seja por uso de glossários, vocabulários, dicionários ou até mesmo de taxonomias que permitem que os dados sejam organizados de forma estruturada, facilitando os processos de busca e recuperação de informações. 
 
 Entretanto, devido ao volume e diversidade de dados que circula hoje pela Internet, uma classificação de termos de forma sintática tem se mostrado insuficiente para manter o significado dos dados de forma individualizada e confiável. Nesse sentido, pesquisas e tecnologias para web semântica vem sendo desenvolvidas e as ontologias ganham notoriedade devido ao seu grande potencial em organizar e representar os dados com maior confiabilidade, permitir categorização e classificação com menor propensão a erros, e permitir que a informação codificada seja interpretada por seres humanos e máquinas.
