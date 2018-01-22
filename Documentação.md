@@ -13,7 +13,7 @@ Em geral, quando se trabalha com a criação de ontologias, devido ao grau de co
 Nesse contexto, foi criado o GT Glossário da Cultura, grupo de trabalho que contou com mais de 50 especialistas de domínio, fixos e também colaboradores sazonais, que, através de reuniões de trabalho presenciais e online, juntamente com o grupo de pesquisa L3P, realizaram o trabalho de modelagem e desenvolvimento da Ontologia da Gestão Cultural. Para chegar a este resultado foram analisadas metodologias de trabalho específicas para a criação colaborativa de ontologias, a partir da qual foi também criada uma metodologia própria, além do desenvolvimento de uma ferramenta web para edição colaborativa de ontologias, fomentando ainda mais a integração de todos os participantes nesse processo.
 
 ### Metodologias para criação de ontologias: uma revisão metodológica
-A metodologia para criação da Ontologia da GEstão Cultural foi baseada na revisão sistemática de metodologias de criação de ontologias, visando trazer consistência nos trabalhos de desenvolvimento e a criação, que se mostrou necessária, de um novo modelo colaborativo de criação de ontologias.  A lista de [referências] (http://github.com) apresentada abaixo
+A metodologia para criação da Ontologia da GEstão Cultural foi baseada na revisão sistemática de metodologias de criação de ontologias, visando trazer consistência nos trabalhos de desenvolvimento e a criação, que se mostrou necessária, de um novo modelo colaborativo de criação de ontologias.  A lista de [referências] (https://github.com/medialab-ufg/ontologia-gestao-cultural/blob/master/Documenta%C3%A7%C3%A3o.md#refer%C3%AAncias) apresentada abaixo mostra as pesquisas utilizadas como base para a realização deste projeto.
 
 > Segundo Siqueira et al (2008), entende-se **metodologia para criação de ontologias** como um conjunto de processos que têm como objetivo planejar, organizar, liderar, coordenar e controlar todo o ciclo de vida de uma ontologia, garantindo sua aplicação e utilização, assim como definindo métodos para conduzir as pessoas responsáveis por sua manipulação através da realização de suas atividades.
 
@@ -45,15 +45,30 @@ Após a análise detalhada de todas as metodologias citadas, foram avaliados lev
 
 Noy e McGuinness (2001), autores da Metodologia 101, descrevem práticas heurísticas sobre a área de criação de ontologias. A partir dessas práticas, utilizadas também para definição da estrutura de trabalho para o GT Glossário da cultura, foram definidos os pontos principais da metodologia de trabalho, que serão apresentados a seguir.
 
-### Processo de trabalho selecionado
+### Processo de trabalho selecionado e a Metodologia 101
+O detalhamento de referência da Metodologia 101 pode ser encontrado em: https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
 
-A metodologia do grupo de trabalho teve como premissas as seguintes etapas:
+No entanto, para simplificar, as 07 etapas propostas foram adaptadas para este projeto da maneira descrita a seguir:
 
-- Diagnóstico de ontologias (pre)existentes sobre o tema Gestão Cultural
-- Avaliação de referências para desenvolvimento da ontologia
-- Criação das Classes da ontologia
-- Criação dos Atributos e Relacionamentos da ontologia
-- Validação da ontologia
+1.	Definir escopo e domínio
+A etapa da definição do escopo e domínio da ontologia tem por objetivo entender qual o foco temático e processual que a ontologia deve atender, sabendo que esse trabalho de definição delimita as informações e conhecimentos sistematizados que a ontologia deve cobrir. É nesse momento que vamos definir os objetivos da ontologia, que perguntas concretas a ontologia deve responder e qual deve ser o modelo de governança responsável pela gestão da própria ontologia. 
+
+2.	Avaliar taxonomias existentes para possível reutilização
+Nesta etapa, temos por objetivo mapear iniciativas de vocabulários, glossários, dicionários, tesauros, ontologias e taxonomias de forma geral que já foram produzidas para o mesmo escopo ou que dialoguem de alguma maneira com o foco da ontologia que estamos desenvolvendo. O objetivo desse mapeamento é avaliar a possibilidade de reutilização de trabalhos anteriores e também a possibilidade de reutilização de padrões que podem facilitar e ampliar a interoperabilidade entre soluções já existentes, ampliando assim o potencial de conectividade no espaço informacional da ontologia.
+
+3.	Identificar, escolher e definir os termos
+A partir do mapeamento de diferentes fontes de informação e da possibilidade de reutilização de trabalhos anteriores, nesta etapa partimos para a priorização e escolha efetiva dentre todos os termos candidatos de quais serão efetivamente levados em consideração pela ontologia e que serão os elementos estruturantes da representação da informação e conhecimento a que a ontologia se propõe. Termos acabam sendo descartados, termos podem ser priorizados e termos novos podem surgir, sendo aqui uma etapa de intenso trabalho colaborativo, diálogo e participação. É também nessa etapa que os termos escolhidos precisam ser definidos, constituindo uma descrição mínima do seu significado. 
+
+4.	Definir as classes e seus relacionamentos
+Uma vez que temos os termos que farão parte da ontologia definidos, chega o momento nessa etapa de definir quais são as classes, as subclasses e a forma como elas devem se relacionar entre si. Esse trabalho visa ampliar a estrutura de organização da informação da ontologia, procurando organizar os termos em redes que definam a visão de relacionamento entre eles que o grupo de pessoas que desenvolve a ontologia possui. Aqui definimos que tipo de relacionamentos a ontologia deve atender, como eles devem ser expressos e quais relacionamentos que conectam determinadas classes por todo o espaço informacional da ontologia. 
+
+5.	Definir as propriedades das classes
+Nessa etapa definimos quais são as propriedades ou atributos de cada classe, entendendo que essas propriedades são parâmetros descritivos que ajudam a caracterizar o que é uma classe, do que ela é composta e quais são as informações básicas que devem ser preenchidas para definir uma classe existente no mundo das relações sociais que queremos representar. 
+
+6.	Definir as facetas das propriedades
+Para cada propriedade de classe que definimos na etapa anterior, devemos agora dizer como elas devem ser preenchidas, se devem utilizar algum tipo de vocabulário controlado (um conjunto de opções pré-determinadas), que restrições de preenchimento devem ser consideradas, padrões, formas e qualquer regulamentação ou indicação de boas práticas que devem ser levadas em consideração para definição das classes.  
+7.	Criar instâncias
+Por fim, nessa última etapa passamos a utilizar a ontologia criada para definir objetos do mundo social que queremos representar. É nesse momento, por exemplo, que vamos descrever um equipamento cultural específico, preenchendo todos as propriedades que definem esse equipamento cultural, visualizando as relações que ele mantém com outras classes e entendendo o uso prático da ontologia com os objetos da cultura que conhecemos em nossas vidas cotidianas. 
 
 
 ## Núcleo do modelo (diagrama)
