@@ -72,7 +72,14 @@ Por fim, nessa última etapa passamos a utilizar a ontologia criada para definir
 
 
 ## Núcleo do modelo (diagrama)
+
+
 ## Referências Externas do Modelo
+
+1. BBC Ontologies - https://www.bbc.co.uk/ontologies e, em especfico, o modelo de ontologia de base - https://www.bbc.co.uk/ontologies/coreconcepts
+
+2. Nature Ontologies, atualmente denominada Springer Nature Scigraph - https://github.com/springernature/scigraph/blob/master/2017Q4/models/ontologies/core/springernature-scigraph-ontologies.cc-by.2017-11-07.ttl
+
 ## Modelo Completo (diagrama)
 
 ## Modelo Conceitual
