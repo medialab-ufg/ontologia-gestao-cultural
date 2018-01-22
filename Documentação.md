@@ -362,6 +362,8 @@ O resultado da criação de atributos para a classe Público (e os seus respecti
 
 
 ## Referências
+As referências são relativas a pesquisa realizada em janeiro de 2016 na base de dados Scopus com o termo de busca "collaborative ontology development". A pesquisa visava identificar, para o início do trabalho de modelagem da ontologia, experiências e propostas metodológicas que já tinham passado pelo processo de desenvolvimento de uma ontologia de forma colaborativa. Esses textos foram estudados pela equipe de mediação do projeto e serviram de base para o trabalho desenvolvido e apresentado acima.
+
 1.	D. Bagni, M. Cappella, M. Pazienza, and A. Stellato. “Congas: A collaborative ontology development framework based on named graphs”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5883 LNAI, pp. 42-51, 2009.
 
 2.	F. Bai and J. Ziegler. “Exchanging knowledge in concise bounded descriptions an approach to support collaborative ontology development in a distributed environment”. pp. 491-500, 2009. 
