@@ -82,35 +82,35 @@ Trata-se de uma ontologia para gestão da cultura, com o objetivo de apoiar na r
 Os objetivos da ontologia propostos pelos participantes visam a integração e interoperabilidade de sistemas de informação atualmente em uso, facilitar acompanhar e monitorar o Sistema Nacional de Cultura em suas diferentes facetas, determinar a estrutura informacional daquilo que deve ser reconhecido como elementos de valor para organização do MinC e facilitar a integração entre diferentes instâncias federativas. 
 
 ### Não-escopo
-
+Discutiu-se que questões que não envolvam processos de gestão cultural foram excluídos da modelagem.
 
 ### Perguntas-requisito
-•	Auxiliar a busca de informações pelos parceiros do MINC?
-•	Auxiliar processes de definição de arquitetura da informação?
-•	Visualizar o SNC
-•	Estruturação
-•	Dinâmicas
-•	Recursos
-•	Reforços 
-•	Auxiliar nos processos de conexão da gestão cultural (Priv./Pub. – Pub./Pub. Etc...)
-•	Auxiliar na apropriação da gestão cultural pela sociedade?
-•	Auxiliar o monitoramento/avaliação da gestão cultural?
-•	Auxiliar na consolidação do SNIIC?
-•	Auxiliar definições semânticas mais precisas no âmbito da GC?
-•	Ser um manual (de apresentação) da cultura brasileira?
-•	Auxiliar processos de formação de gestores culturais?
-•	Identificar agentes/ações culturais em diferentes níveis?
-•	Classificar dados/indicadores do PNC?
-•	Ampliar conexões setoriais e intersetoriais?
-•	Avaliar impactos econômicos/sociais da gestão cultural?
-•	Viabilizar a transparência e o controle social?
-•	Difundir/mobilizar no sentido de universalizar direitos culturais?
-•	Caracterizar elementos da gestão cultural (agentes, instituições, instrumentos, equipamentos, fontes de informação, públicos, serviços, manifestações).
-•	Promover a inteligibilidade?
-•	Promover ações sistêmicas?  (Diálogos entre subjetividade do campo cultural e objetividade da GC?)
-•	Ajuda a preservar a memória cultural?
-•	Pode mapear as atividades do MINC para aux. Na elaboração de um plano de classificação de documentos?
-•	Relacionar/comparar editais culturais?
+1. Auxiliar a busca de informações pelos parceiros do MINC?
+2.	Auxiliar processes de definição de arquitetura da informação?
+3.	Visualizar o SNC
+4.	Estruturação
+5.	Dinâmicas
+6.	Recursos
+7.	Reforços 
+8.	Auxiliar nos processos de conexão da gestão cultural (Priv./Pub. – Pub./Pub. Etc...)
+9.	Auxiliar na apropriação da gestão cultural pela sociedade?
+10.	Auxiliar o monitoramento/avaliação da gestão cultural?
+11.	Auxiliar na consolidação do SNIIC?
+12.	Auxiliar definições semânticas mais precisas no âmbito da GC?
+13.	Ser um manual (de apresentação) da cultura brasileira?
+14.	Auxiliar processos de formação de gestores culturais?
+15.	Identificar agentes/ações culturais em diferentes níveis?
+16.	Classificar dados/indicadores do PNC?
+17.	Ampliar conexões setoriais e intersetoriais?
+18. Avaliar impactos econômicos/sociais da gestão cultural?
+19.	Viabilizar a transparência e o controle social?
+20.	Difundir/mobilizar no sentido de universalizar direitos culturais?
+21.	Caracterizar elementos da gestão cultural (agentes, instituições, instrumentos, equipamentos, fontes de informação, públicos, serviços, manifestações).
+22. Promover a inteligibilidade?
+23.	Promover ações sistêmicas?  (Diálogos entre subjetividade do campo cultural e objetividade da GC?)
+24.	Ajuda a preservar a memória cultural?
+25.	Pode mapear as atividades do MINC para aux. Na elaboração de um plano de classificação de documentos?
+26.	Relacionar/comparar editais culturais?
 
 ### Conceitos
 #### Ação
