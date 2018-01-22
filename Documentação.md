@@ -362,5 +362,109 @@ O resultado da criação de atributos para a classe Público (e os seus respecti
 
 
 ## Referências
+1.	D. Bagni, M. Cappella, M. Pazienza, and A. Stellato. “Congas: A collaborative ontology development framework based on named graphs”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5883 LNAI, pp. 42-51, 2009.
+
+2.	F. Bai and J. Ziegler. “Exchanging knowledge in concise bounded descriptions an approach to support collaborative ontology development in a distributed environment”. pp. 491-500, 2009. 
+
+3.	J. Bao, Z. Hu, D. Caragea, J. Reecy, and V. Honavar. “A tool for collaborative construction of large biological ontologie”. pp. 191-195, 2006.
+
+4.	Y. Chen, X. Peng, and W. Zhao. “An approach to detect collaborative conflicts for ontology development”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5446, pp. 442-454, 2009. 
+
+5.	J. Dall'Agnol, C. Tacla, A. Freddo, A. Molinari, and E. Paraiso. “The use of well-founded argumentation on the conceptual modeling of collaborative ontology development”. pp. 200”207, 2011. 
+
+6.	X. Du, M. Li, H. Hu, W. Ma, G. Qin, and W. Wu. “Construction of economics knowledge grid”. Huazhong Keji Daxue Xuebao (Ziran Kexue Ban)/Journal of Huazhong University of Science and Technology (Na- tural Science Edition). vol. 34, no. SUPPL., pp. 17”20, 2006.  
+
+7.	S. Falconer, T. Tudorache, and N. Noy. “An analysis of collaborative patterns in large-scale ontology development projects”. pp. 25-31, 2011.
+
+8.	J. Frankowski, P. Rubach, and E. Szczekocka. “Collaborative ontology development in real telecom environment”. pp. 40-53, 2007. 
+
+9.	D. Gruen, J. Rasmussen, J. Liu, S. Hupfer, and S. Ross. “Collaborative reasoning and collaborative ontology development in craft”. Vol. SS-08- 07, pp. 51-58, 2008. 
+
+10.	J. Hauagge Dall Agnol and C. Tacla. “A method for collaborative argumentation in merging individual ontologies”. Journal of Universal Computer Science. vol. 19, no. 12, pp. 1808-1833, 2013. 
+
+11.	J. Henke. “Towards a usable group editor for ontologies”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 4273 LNCS, pp. 978”979, 2006. 
+
+12.	T. Inniss, J. Lee, M. Light, M. Grassi, G. Thomas, and A. Williams. “Towards applying text mining and natural language processing for biomedical ontology acquisition”. pp. 7-14, 2006.
+13.	R. Kalbasi, A. Alesheikh, and S. Amanzadeh. “Delving into knowledge modeling software supporting collaborative ontology development”. International Review on Computers and Software. vol. 7, no. 5, pp. 2045-2053, 2012. 
+
+14.	R. Kalbasi, K. Janowicz, F. Reitsma, L. Boerboom, and A. Alesheikh. “Collaborative ontology development for the geosciences”. Transactions in GIS. vol. 18, no. 6, pp. 834-851, 2014. . 
+
+15.	M. Li, D. Wang, X. Du, and S. Wang. “Ontology construction for semantic web: A role-based collaborative development method”. vol. 3399, pp. 609”619, 2005.
+
+16.	M. Loskyll, D. Heckmann, and I. Kobayashi. “Ubiseditor 3.0: Collaborative ontology development on the web”. vol. 467, 2009. 
+
+17.	J. Mace, S. Parkin, and A. Van Moorsel. “A collaborative ontology development tool for information security managers”. 2010. 
+
+18.	G. Mangione, E. Mazzoni, F. Orciuoli, and A. Pierri. “A pedagogical approach for collaborative ontologies building”. Studies in Computational Intelligence. vol. 350, pp. 135-166, 2011. 
+
+19.	“The semantic web, iswc 2002 - first international semantic web conference, proceedings”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 2342. LNCS, 2002. 
+
+20.	“1st international semantic web conference, iswc 2002”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 2342, pp. 1”474, 2002. 
+
+21.	“1st international working conference on business process and services computing, bpsc 2007”. 2007.  
+
+22.	”Symbiotic relationships between semantic web and knowledge engineering - papers from the aaai spring symposium, technical report”. Vol. SS-08-07, 2008. 
+
+23.	“The semanticweb - 3rd asian semanticweb conference, aswc 2008, proceedings”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5367 LNCS, 2008.
+
+24.	“The sementic web - iswc 2008 - 7th international semantic web conference, iswc 2008, proceedings”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5318 LNCS, 2008.  
+
+25.	“Sw2 2009 - proceedings of the workshop on web 3.0: Merging semantic web and social web”. vol. 467, 2009.  
+
+26.	“Proceedings of the international symposium on matching and meaning automated development, evolution and interpretation of ontologies – a symposium at the aisb 2010 convention”. 2010.  
+
+27.	“Symposium on computer human interaction for management of information technology, chimit 2010,” 2010.  
+
+28.	“Acm international conference proceeding series”. vol. 02-04-September- 2015, 2015.  
+
+29.	A. Norta, R. Yangarber, and L. Carlson. “Utility evaluation of tools for collaborative development and maintenance of ontologies”. pp. 207”214, 2010. .
+
+30.	N. Noy and T. Tudorache. “Collaborative ontology development on the (semantic) web”. Vol. SS-08-07, pp. 63”68, 2008. . 
+
+31.	M. Oprea. “On the design of a collaborative ontology development methodology for educational systems”. vol. 02-04-September-2015, 2015. 
+
+32.	R. Palma, P. Haase, O. Corcho, A. Gómez-Pérez, and Q. Ji. “An editorial workflow approach for collaborative ontology development”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5367 LNCS, pp. 227-241, 2008. .
+
+33.	R. Palma, O. Corcho, A. Gómez-Pérez, and P. Haase. “A holistic approach to collaborative ontology development based on change management”. Journal of Web Semantics. vol. 9, no. 3, pp. 299-314, 2011.
+ 
+34.	T. Redmond, M. Smith, N. Drummond, and T. Tudorache. “Managing change: An ontology version control system”. vol. 432, 2009. 
+
+35.	M. Rospocher, T. Tudorache, and M. Musen. “Investigating collaboration dynamics in different ontology development environments”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 8793, pp. 302-313, 2014. 
+
+36.	J. Sachs and T. Finin. “Social and semantic computing in support of citizen science”. vol. 774, pp. 46-51, 2011.  
+
+37.	G. Santipantakis and G. Vouros. “Semantics based reconciliaton for collaborative ontology evolution”. pp. 153-158, 2009.  
+
+38.	A. Sebastian, N. Noy, T. Tudorache, and M. Musen. “A generic ontology for collaborative ontology-development workflows”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5268 LNAI, pp. 318”328, 2008.
+
+39.	D. Settas, G. Meditskos, N. Bassiliades, and I. Stamelos. “Detecting antipatterns using a web-based collaborative antipattern ontology knowledge base”. Lecture Notes in Business Information Processing. vol. 83 LNBIP, pp. 478”488, 2011.  
+
+40.	X. Shixiong, D. Zhiwen, Z. Lei, and Y. Guan. “Research on collaborative ontology development method based on lock granularity”. vol. 1, pp. 374”378, 2008.  
+
+41.	C. Sousa, A. Soares, C. Pereira, and S. Moniz. “Establishing conceptual commitments in the development of ontologies through competency questions and conceptual graphs”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 8842, pp. 626-635, 2014.  
+
+42.	Y. Sure, M. Erdmann, J. Angele, S. Staab, R. Studer, and D. Wenke. “Ontoedit: Collaborative ontology development for the semantic web”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 2342 LNCS, pp. 221-235, 2002.
+ 
+43.	E. Tonkin, H. Pfeiffer, and A. Hewson. “An evidence-based approach to collaborative ontology development”. pp. 39-41, 2010.  
+
+44.	E. Toppano. “A communication-based model of ontology design and (re)use”. 2010.  
+
+45.	T. Tudorache, N. Noy, S. Tu, and M. Musen. “Supporting collaborative ontology development in protégé”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 5318 LNCS, pp. 17-32, 2008.
+
+46.	T. Tudorache, N. Noy, S. Falconer, and M. Musen. “A knowledge base driven user interface for collaborative ontology development,” pp. 411”414, 2011. . 
+
+47.	A. Valo, E. Hyvönen, and V. Komulainen. “A tool for collaborative ontology development for the semantic web”. pp. 209-212, 2005. 
+
+48.	A. Walter and G. Nagypál. “Imagenotion: Methodology, tool support and evaluation”. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). vol. 4803 LNCS, no. PART 1, pp. 1007-1024, 2007. 
+
+49.	J. Wang, L. Xu, Z. Deng, and L. Zhang, “A collaborative ontology developing method based on ripple-effect”. pp. 131-134, 2010. 
+
+50.	G.-J. Xian and R.-X. Zhao, “A review and prospects on collaborative ontology editing tools”. Journal of Integrative Agriculture. vol. 11, no. 5, pp. 731-740, 2012.
+
+51.	T. Yang, Y.Wu, X. Peng, and W. Zhao “Fine-grained configuration management for collaborative ontology development”. pp. 230-238, 2011. 
+
+52.	M. Yoder, I. Mikó, K. Seltmann, M. Bertone, and A. Deans. “A gross anatomy ontology for hymenoptera”. PLoS ONE. vol. 5, no. 12, 2010.
+
+53.	N. Zaini and H. Omar. “An online system to support collaborative knowledge acquisition for ontology development”. pp. 543-548, 2011. 
 
 
