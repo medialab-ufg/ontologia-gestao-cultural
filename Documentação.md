@@ -74,10 +74,43 @@ Por fim, nessa última etapa passamos a utilizar a ontologia criada para definir
 ## Núcleo do modelo (diagrama)
 ## Referências Externas do Modelo
 ## Modelo Completo (diagrama)
+
 ## Modelo Conceitual
 ### Escopo
+Trata-se de uma ontologia para gestão da cultura, com o objetivo de apoiar na resolução de outras questões que têm preocupado a área da cultura, como criação da conta satélite da cultura e qualificação da gestão cultural. O GT fez uma reflexão mais ampla em relação ao escopo, e chegou-se a um consenso de se tratar de uma ontologia para a política pública da cultura, entendendo que uma das missões do SNC, do SNIIC, e do próprio MinC, é orientar e qualificar a gestão cultural no Brasil.
+
+Os objetivos da ontologia propostos pelos participantes visam a integração e interoperabilidade de sistemas de informação atualmente em uso, facilitar acompanhar e monitorar o Sistema Nacional de Cultura em suas diferentes facetas, determinar a estrutura informacional daquilo que deve ser reconhecido como elementos de valor para organização do MinC e facilitar a integração entre diferentes instâncias federativas. 
+
 ### Não-escopo
+
+
 ### Perguntas-requisito
+•	Auxiliar a busca de informações pelos parceiros do MINC?
+•	Auxiliar processes de definição de arquitetura da informação?
+•	Visualizar o SNC
+•	Estruturação
+•	Dinâmicas
+•	Recursos
+•	Reforços 
+•	Auxiliar nos processos de conexão da gestão cultural (Priv./Pub. – Pub./Pub. Etc...)
+•	Auxiliar na apropriação da gestão cultural pela sociedade?
+•	Auxiliar o monitoramento/avaliação da gestão cultural?
+•	Auxiliar na consolidação do SNIIC?
+•	Auxiliar definições semânticas mais precisas no âmbito da GC?
+•	Ser um manual (de apresentação) da cultura brasileira?
+•	Auxiliar processos de formação de gestores culturais?
+•	Identificar agentes/ações culturais em diferentes níveis?
+•	Classificar dados/indicadores do PNC?
+•	Ampliar conexões setoriais e intersetoriais?
+•	Avaliar impactos econômicos/sociais da gestão cultural?
+•	Viabilizar a transparência e o controle social?
+•	Difundir/mobilizar no sentido de universalizar direitos culturais?
+•	Caracterizar elementos da gestão cultural (agentes, instituições, instrumentos, equipamentos, fontes de informação, públicos, serviços, manifestações).
+•	Promover a inteligibilidade?
+•	Promover ações sistêmicas?  (Diálogos entre subjetividade do campo cultural e objetividade da GC?)
+•	Ajuda a preservar a memória cultural?
+•	Pode mapear as atividades do MINC para aux. Na elaboração de um plano de classificação de documentos?
+•	Relacionar/comparar editais culturais?
 
 ### Conceitos
 #### Ação
