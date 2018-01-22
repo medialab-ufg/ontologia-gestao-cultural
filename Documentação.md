@@ -6,6 +6,7 @@
 ## Referências Externas do Modelo
 ## Modelo Completo (diagrama)
 ## Modelo Conceitual
+#### Escopo
 ## Referências
 
 
