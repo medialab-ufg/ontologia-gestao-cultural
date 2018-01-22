@@ -125,7 +125,7 @@ Discutiu-se que questões que não envolvam processos de gestão cultural foram 
 #### Ação
 > Conjunto de atividades e procedimentos, envolvendo recursos humanos e materiais, que visam pôr em prática os objetivos de um agente ou de uma determinada política cultural.
 
-São identificadas como subclasses de Ação (e suas definições):
+São identificados os seguintes ítens como uma tipologia de Ação (e suas definições):
 
 > Criação: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
 
@@ -139,7 +139,7 @@ São identificadas como subclasses de Ação (e suas definições):
 
 > Produção: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
 
-A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
+A tipologia final da classe Ação proposta pelo GT foi a seguinte:
 
 - **Ação**
   - **Criação**
@@ -188,7 +188,11 @@ São identificadas como subclasses de Agente (e suas definições):
 > Agente individual: agente que representa apenas um indivíduo, grupo, instituição ou similar, que atua como um ente único.
 
 A estrutura final de subclasses da classe Agente proposta pelo GT foi a seguinte:
+- **Agente**
+  - **Agente Coletivo**
+  - **Agente Individual**
 
+Foi identificada a seguinte tipologia de agentes:
 - **Agente**
   - **Agente Coletivo**
     - Grupo de Cultura
@@ -273,7 +277,7 @@ São identificadas como subclasses de Espaços:
 
 > Espaço Potencialmente Cultural: locais aptos a receberem ações culturais, porém não caracterizados como equipamentos culturais.
 
-A estrutura final de subclasses da classe Espaço proposta pelo GT foi a seguinte:
+Foi identificada a seguinte tipologia da classe Espaço proposta pelo GT:
 
 - **Espaço**
   - Equipamento Cultural
@@ -330,7 +334,7 @@ O resultado da criação de atributos para a classe Espaço (e os seus respectiv
 #### Instrumento
 > São meios, mecanismos ou ferramentas de gestão cultural que orientam a relação dos agentes, espaços, públicos e ou ações.
 
-São identificadas como subclasses de Instrumento:
+São identificados como tipos de Instrumentos:
 
 > Ato Jurídico: é uma manifestação da vontade humana que produz efeitos jurídicos, causando a aquisição, modificação ou extinção de relações jurídicas e de seus direitos. Assim, são fatos jurídicos que consistem em manifestações da vontade humana.
   
@@ -340,7 +344,7 @@ São identificadas como subclasses de Instrumento:
 
 > Sistema Operativo: podem ser vistos de dois pontos de vista, sendo gerenciadores de recursos e/ou máquinas estendidas.
 
-A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seguinte:
+A estrutura final de tipologia da classe Instrumento proposta pelo GT foi a seguinte:
 
 - **Instrumento**
    - Ato Jurídico
@@ -383,7 +387,7 @@ O resultado da criação de atributos para a classe Instrumento (e os seus respe
 #### Público
 > São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais.
 
-A estrutura final de subclasses de Público proposta pelo GT, com suas respectivas definições, foi:
+A estrutura final da tipologia de Público proposta pelo GT, com suas respectivas definições, foi:
 
 > Potencial: são “indivíduos” (agentes) que ainda não participam/participaram de ação cultural e que podem vir a se tornar público presencial ou virtual.
 
@@ -391,7 +395,7 @@ A estrutura final de subclasses de Público proposta pelo GT, com suas respectiv
 
 > Virtual: público que acessa, participa, cria e vivencia as ações culturais virtuais e os espaços virtuais na internet.
 
-A estrutura final de subclasses da classe Público proposta pelo GT foi a seguinte:
+A estrutura final da tipologia da classe Público proposta pelo GT foi a seguinte:
 
 - **Público**
   - Potencial
