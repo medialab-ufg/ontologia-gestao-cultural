@@ -6,7 +6,15 @@
 ## Referências Externas do Modelo
 ## Modelo Completo (diagrama)
 ## Modelo Conceitual
-#### Escopo
+### Escopo
+### Não-escopo
+### Perguntas-requisito
+### Conceitos
+#### Ação
+#### Agente
+#### Espaço cultural
+#### Instrumento
+#### Público
 ## Referências
 
 
