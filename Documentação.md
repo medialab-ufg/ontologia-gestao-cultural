@@ -1,38 +1,18 @@
 # Ontologia da Gestão Cultural
 
 ## Introdução
-## Participantes e processo de construção
-## Núcleo do modelo (diagrama)
-## Referências Externas do Modelo
-## Modelo Completo (diagrama)
-## Modelo Conceitual
-### Escopo
-### Não-escopo
-### Perguntas-requisito
-### Conceitos
-#### Ação
-#### Agente
-#### Espaço cultural
-#### Instrumento
-#### Público
-## Referências
-
-
-
 A importância da organização de dados na era da informação têm sido amplamente discutida em diferentes áreas de pesquisa. De acordo com as pesquisas nessa área, existem muitas formas de realizar esse tipo de trabalho, seja por uso de glossários, vocabulários, dicionários ou até mesmo de taxonomias que permitem que os dados sejam organizados de forma estruturada, facilitando os processos de busca e recuperação de informações. 
 
 Entretanto, devido ao volume e diversidade de dados que circula hoje pela Internet, uma classificação de termos de forma sintática tem se mostrado insuficiente para manter o significado dos dados de forma individualizada e confiável. Nesse sentido, pesquisas e tecnologias para web semântica vem sendo desenvolvidas e as ontologias ganham notoriedade devido ao seu grande potencial em organizar e representar os dados com maior confiabilidade, permitir categorização e classificação com menor propensão a erros, e permitir que a informação codificada seja interpretada por seres humanos e máquinas.
 
 O presente relatório apresenta o projeto e criação de uma ontologia para a Gestão Cultural, trabalho de interesse do Ministério da Cultura (MinC), em parceria com o Laboratório de Políticas Públicas Participativas (L3P) da Universidade Federal de Goiás (UFG). São descritos aqui: a metodologia de construção colaborativa de ontologias, a versão beta da ontologia, e as principais contribuições da pesquisa e estudos realizados.
 
-## GT Glossário da Cultura
-
+## Participantes e processo de construção
 Em geral, quando se trabalha com a criação de ontologias, devido ao grau de complexidade dessas estruturas de dados, o método padrão se baseia na parceria entre os especialistas de domínio e os técnicos ou engenheiros de ontologia, que são responsáveis por modelar o conhecimento de dominio repassado pelos especialistas e desenvolver a ontologia através de linguagem computacional apropriada. Entretanto, para a realidade do projeto, visando aproximar ainda mais o especialista de domínio do processo de modelagem de conhecimento da Gestão Cultural, foi adotada uma forma de trabalho colaborativa entre a parte especialista e a parte técnica, objetivando trazer os especialistas de domínio para o processo de desenvolvimento participativo, tanto para coletar uma grande massa de dados, quanto para validar todas as informações de domínio
 
-Nesse contexto, foi riado o GT Glossário da Cultura, grupo de trabalho que contou com mais de 50 especialistas de domínio, fixos e também colaboradores sazonais, que, através de reuniões de trabalho presenciais e online, juntamente com o grupo de pesquisa L3P, realizaram o trabalho de modelagem e desenvolvimento da Ontologia da Gestão Cultural. Para chegar a este resultado foram analisadas metodologias de trabalho específicas para a criação colaborativa de ontologias, a partir da qual foi também criada uma metodologia própria, além do desenvolvimento de uma ferramenta web para edição colaborativa de ontologias, fomentando ainda mais a integração de todos os participantes nesse processo.
+Nesse contexto, foi criado o GT Glossário da Cultura, grupo de trabalho que contou com mais de 50 especialistas de domínio, fixos e também colaboradores sazonais, que, através de reuniões de trabalho presenciais e online, juntamente com o grupo de pesquisa L3P, realizaram o trabalho de modelagem e desenvolvimento da Ontologia da Gestão Cultural. Para chegar a este resultado foram analisadas metodologias de trabalho específicas para a criação colaborativa de ontologias, a partir da qual foi também criada uma metodologia própria, além do desenvolvimento de uma ferramenta web para edição colaborativa de ontologias, fomentando ainda mais a integração de todos os participantes nesse processo.
 
-## Metodologia para Desenvolvimento Colaborativo de Ontologias
-
+### Metodologias para criação de ontologias: uma revisão metodológica
 A metodologia para criação da Ontologia da GEstão Cultural foi baseada na revisão sistemática de metodologias de criação de ontologias, visando ytazer consistência nos trabalhos de desenvolvimento e a criação, que se mostrou necessária, de um novo modelo colaborativo de criação de ontologias. 
 
 > Segundo Siqueira et al (2008), entende-se **metodologia para criação de ontologias** como um conjunto de processos que têm como objetivo planejar, organizar, liderar, coordenar e controlar todo o ciclo de vida de uma ontologia, garantindo sua aplicação e utilização, assim como definindo métodos para conduzir as pessoas responsáveis por sua manipulação através da realização de suas atividades.
@@ -65,7 +45,7 @@ Após a análise detalhada de todas as metodologias citadas, foram avaliados lev
 
 Noy e McGuinness (2001), autores da Metodologia 101, descrevem práticas heurísticas sobre a área de criação de ontologias. A partir dessas práticas, utilizadas também para definição da estrutura de trabalho para o GT Glossário da cultura, foram definidos os pontos principais da metodologia de trabalho, que serão apresentados a seguir.
 
-## Desenvolvimento colaborativo da Ontologia de Gestão Cultural
+### Processo de trabalho selecionado
 
 A metodologia do grupo de trabalho teve como premissas as seguintes etapas:
 
@@ -76,30 +56,72 @@ A metodologia do grupo de trabalho teve como premissas as seguintes etapas:
 - Validação da ontologia
 
 
-### Projeção e Condução de Entrevistas em Grupos Focais
+## Núcleo do modelo (diagrama)
+## Referências Externas do Modelo
+## Modelo Completo (diagrama)
+## Modelo Conceitual
+### Escopo
+### Não-escopo
+### Perguntas-requisito
 
-A realização de mediação de grupos focais teve como objetivo extrair e organizar as informações dos especialistas de domínio, de maneira a permitir a modelagem e o desenvolvimento da ontologia de maneira totalmente colaborativa. Nesse tipo de método de controle de conteúdo gerado por grupos focais, são apresentada boas práticas para que seja possível fazer intervenções sem gerar conflitos ou prejudicar o processo de criação da inteligência coletiva. Dentre essas práticas heurísticas foram adotadas:
+### Conceitos
+#### Ação
+> Conjunto de atividades e procedimentos, envolvendo recursos humanos e materiais, que visam pôr em prática os objetivos de um agente ou de uma determinada política cultural.
 
-- Controlar o número de participantes;
-- Gerar estratégias de envolvimentos dos componentes;
-- Definir moderadores de grupo;
-- Fazer a análise do conteúdo e gerar relatórios;
-- Fazer registros dos pontos principais do grupo.
+São identificadas como subclasses de Ação (e suas definições):
 
-Esse tipo de metodologia é direcionado, em especial, para questões comportamentais e engenharia social, objetivando o maior aproveitamento das reuniões em grupo, tanto na questão do espaço físico, sobre como conduzir a reunião em si, quanto na parte de gestão das informações no momento das discussões.
+> Criação: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
 
-<!-- ## Ferramenta para Edição Colaborativa de Ontologias: Tainacan Ontology -->
+> Difusão: ações que criam oportunidades de disseminação da cultura, fruição e troca de experiências, por meio da ampliação de circuitos de distribuição e da descentralização da oferta cultural, propiciando a circulação de diversas expressões culturais e linguagens, contribuindo para a formação ampla do cidadão.
+
+> Formação: ações educativas, formais ou não formais, que buscam ampliar o repertório cultural dos participantes e/ou facilitar o estabelecimento de relacionamentos inspiradores com a arte e a cultura nas dimensões de apropriação, fruição, expressão, experimentação ou especialização.
+
+> Governança: ações que contribuem para a melhoria da qualidade de uma organização, para o melhor desempenho de suas atividades e fortalecimento institucional. Abrange atividades de apoio técnico a municípios e instituições culturais, a articulação e a construção de parcerias para realização de ações conjuntas, a captação de recursos, o incremento da comunicação institucional, a melhoria da infraestrutura, a qualificação técnica de funcionários, a realização de pesquisas de perfil e satisfação do público e demais rotinas. Em geral, esse tipo de função não está associada diretamente a um público externo.
+
+> Preservação: ações voltadas para a valorização do patrimônio cultural, em todas as suas vertentes, por meio de reconhecimento, pesquisa, conservação, proteção, restauração e/ou manutenção de bens materiais e imateriais considerados significativos por determinado grupo social.
+
+> Produção: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
+
+A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
+
+- **Ação**
+  - **Criação**
+  - **Difusão**
+  - **Formação**
+  - **Governança**
+  - **Preservação**
+  - **Produção**
+  
+ O resultado da modelagem de relacionamentos baseados na classe Ação foi o seguinte: 
+ 
+- **Ação**
+  - Relacionamentos
+    - aconteceEm - Espaço
+    - atingePúblico - Público
+    - éExecutadaPor - Agente
+    - éOrientadaPor - Instrumento
+    - temPublico - Público
+    
+O resultado da criação de atributos para a classe Ação (e os seus respectivos tipos) é apresentado a seguir:    
+
+- **Ação**
+  - Atributos
+    - Tradução para Libras - Lógico
+    - Áudio descrição - Lógico
+    - Classificação etária - Taxonomia
+    - Preço - Texto
+    - Nome - Texto
+    - Descrição Curta - Texto
+    - RecebeuRecursos	- Valor Inteiro
+    - RecebeuVerbaPública -	Lógico
+    - ImpactaTerritórios -	Lista
+    - TeveMeiaEntrada -	Lógico
+    - QualidadeMeiaEntrada -	Lista
+    - QuantidadeMeiaEntradaPorTipo -	Valor Inteiro
+    - TemConteúdoAcessível -	Lógico
 
 
-## Documentação da Ontologia
-
-
-<!-- As super classes definidas pelo GT Glossário da Cultura foram: -->
-
-### Agente
-
-> **Definição**:
-
+#### Agente
 > É o indivíduo, grupo ou instituição, que atua no planejamento, execução, gestão, avaliação, criação, produção, difusão, pesquisa, e ensino no campo da cultura.
 
 São identificadas como subclasses de Agente (e suas definições):
@@ -185,9 +207,8 @@ O resultado da criação de atributos para a classe Agente (e os seus respectivo
     - Tipo de esfera	- Taxonomia
     - Títulos e certificados	- Taxonomia
 
-### Espaço
-
-Lugares, fixos ou móveis/itinerantes, virtuais ou físicos, onde ocorrem ações culturais.
+#### Espaço cultural
+> Lugares, fixos ou móveis/itinerantes, virtuais ou físicos, onde ocorrem ações culturais.
 
 São identificadas como subclasses de Espaços:
 
@@ -248,68 +269,8 @@ O resultado da criação de atributos para a classe Espaço (e os seus respectiv
     - AcessoAoPúblico	- Taxonomia
     - Tipo - Taxonomia
 
-### Ação
 
-> **Definição**:
-
-> Conjunto de atividades e procedimentos, envolvendo recursos humanos e materiais, que visam pôr em prática os objetivos de um agente ou de uma determinada política cultural.
-
-São identificadas como subclasses de Ação (e suas definições):
-
-> Criação: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
-
-> Difusão: ações que criam oportunidades de disseminação da cultura, fruição e troca de experiências, por meio da ampliação de circuitos de distribuição e da descentralização da oferta cultural, propiciando a circulação de diversas expressões culturais e linguagens, contribuindo para a formação ampla do cidadão.
-
-> Formação: ações educativas, formais ou não formais, que buscam ampliar o repertório cultural dos participantes e/ou facilitar o estabelecimento de relacionamentos inspiradores com a arte e a cultura nas dimensões de apropriação, fruição, expressão, experimentação ou especialização.
-
-> Governança: ações que contribuem para a melhoria da qualidade de uma organização, para o melhor desempenho de suas atividades e fortalecimento institucional. Abrange atividades de apoio técnico a municípios e instituições culturais, a articulação e a construção de parcerias para realização de ações conjuntas, a captação de recursos, o incremento da comunicação institucional, a melhoria da infraestrutura, a qualificação técnica de funcionários, a realização de pesquisas de perfil e satisfação do público e demais rotinas. Em geral, esse tipo de função não está associada diretamente a um público externo.
-
-> Preservação: ações voltadas para a valorização do patrimônio cultural, em todas as suas vertentes, por meio de reconhecimento, pesquisa, conservação, proteção, restauração e/ou manutenção de bens materiais e imateriais considerados significativos por determinado grupo social.
-
-> Produção: ações relacionadas ao uso de potencialidades criativas para elaboração de ideias, conteúdos e produtos culturais originais.
-
-A estrutura final de subclasses da classe Ação proposta pelo GT foi a seguinte:
-
-- **Ação**
-  - **Criação**
-  - **Difusão**
-  - **Formação**
-  - **Governança**
-  - **Preservação**
-  - **Produção**
-  
- O resultado da modelagem de relacionamentos baseados na classe Ação foi o seguinte: 
- 
-- **Ação**
-  - Relacionamentos
-    - aconteceEm - Espaço
-    - atingePúblico - Público
-    - éExecutadaPor - Agente
-    - éOrientadaPor - Instrumento
-    - temPublico - Público
-    
-O resultado da criação de atributos para a classe Ação (e os seus respectivos tipos) é apresentado a seguir:    
-
-- **Ação**
-  - Atributos
-    - Tradução para Libras - Lógico
-    - Áudio descrição - Lógico
-    - Classificação etária - Taxonomia
-    - Preço - Texto
-    - Nome - Texto
-    - Descrição Curta - Texto
-    - RecebeuRecursos	- Valor Inteiro
-    - RecebeuVerbaPública -	Lógico
-    - ImpactaTerritórios -	Lista
-    - TeveMeiaEntrada -	Lógico
-    - QualidadeMeiaEntrada -	Lista
-    - QuantidadeMeiaEntradaPorTipo -	Valor Inteiro
-    - TemConteúdoAcessível -	Lógico
-
-### Instrumento
-
-> **Definição**:
-
+#### Instrumento
 > São meios, mecanismos ou ferramentas de gestão cultural que orientam a relação dos agentes, espaços, públicos e ou ações.
 
 São identificadas como subclasses de Instrumento:
@@ -331,7 +292,6 @@ A estrutura final de subclasses da classe Instrumento proposta pelo GT foi a seg
   - Documento Referencial
   - Norma Jurídica
   - Sistema Operativo
-
 
 O resultado da modelagem de relacionamentos baseados na classe Instrumento  foi o seguinte:
 
@@ -363,10 +323,7 @@ O resultado da criação de atributos para a classe Instrumento (e os seus respe
     - Função - texto
   
 
-### Público
-
-> **Definição**:
-
+#### Público
 > São indivíduos ou coletivos que usufruem direta ou indiretamente das ações e/ou dos espaços culturais.
 
 A estrutura final de subclasses de Público proposta pelo GT, com suas respectivas definições, foi:
@@ -403,15 +360,7 @@ O resultado da criação de atributos para a classe Público (e os seus respecti
     - Tipo de engajamento - Texto	
     - Segmento de público	- Texto
 
-<!-- 
-## Discussões sobre os Resultados
-### Versão Beta da Ontologia
-### Desenvolvimento de Metolologia para Construção Colaborativa de Ontologias
-### Desenvolvimento de Ferramenta Colaborativa para Construção de Ontologias
--->
 
-
-
-
+## Referências
 
 
